@@ -1,0 +1,20 @@
+create table user_inf
+(
+   firstname varchar(50),
+   lastname varchar(50),
+   number_university int primary key,
+   mumber varchar(10),
+   password varchar(50),
+   college varchar(50),
+   gander  varchar(6)
+)
+
+create table post
+(
+  id_message int primary key,
+  message text,
+  number_university varchar(50),
+ 
+
+)
+
